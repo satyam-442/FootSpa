@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Foot Spa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pass_gen">New to FootSpa Friend. Initialize your phone number and get your account ready in one minute.</string>
+    <string name="sabita_info">An enthusiastic and cheerful personality, a lady with good leadership quality, seeks always for a good opportunity to grow more and more.</string>
+    <string name="satyam_info">An enthusiastic and cheerful personality, a boy with good leadership quality, seeks always for a good opportunity to grow more and more.</string>
+    <string name="hair_care">HAIR CARE \n \u2022 HAIR CARE\nHAIR CARE\nHAIR CARE\nHAIR CARE\nHAIR CARE\nHAIR CARE\nHAIR CARE</string>
+    <string name="booking_str">Enter the details of your booking and \n we\'ll try to find a match</string>
+    <string name="google_maps_key">AIzaSyDosLzxQ9ft5S9ENUDkN5DZEOrGcZaZg_E</string>
+    <string name="add_store_text">Willing to grow your SPA and Massage business. You are the right place. Proceed to add your details and get ready to grow.</string>
+    <string name="store_welcome_text">We will help you to grow your business using\nonline services provided by us.</string>
+</resources>

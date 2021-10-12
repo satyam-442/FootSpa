@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/booking"
+            android:title="Bookings" />
+        <item
+            android:id="@+id/nav_spa_map"
+            android:icon="@drawable/location"
+            android:title="Spa Map" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/account"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about_us"
+            android:title="About Us" />
+    </group>
+</menu>

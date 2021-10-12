@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1053585899219",
+    "firebase_url": "https://poojnil-default-rtdb.firebaseio.com",
+    "project_id": "poojnil",
+    "storage_bucket": "poojnil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053585899219:android:04c7066973fc029cc1de26",
+        "android_client_info": {
+          "package_name": "com.example.footspa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053585899219-guduqb3n49ijspukeo29d8blbu9clmre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAus1TcWMFAMMg8TbNuNFyb9cAj1MGkjWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053585899219-guduqb3n49ijspukeo29d8blbu9clmre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053585899219:android:64330f1a119fef1dc1de26",
+        "android_client_info": {
+          "package_name": "com.example.poojnil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053585899219-guduqb3n49ijspukeo29d8blbu9clmre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAus1TcWMFAMMg8TbNuNFyb9cAj1MGkjWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053585899219-guduqb3n49ijspukeo29d8blbu9clmre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

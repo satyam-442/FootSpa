@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/courgette</item>
+        <item>@font/doppio_one</item>
+        <item>@font/lato</item>
+        <item>@font/macondo_swash_caps</item>
+        <item>@font/raleway_bold</item>
+        <item>@font/raleway_light</item>
+        <item>@font/raleway_medium</item>
+        <item>@font/sofia</item>
+    </array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/phone_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="25dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/courgette"
+        android:text="@string/pass_gen"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userPhoneLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:counterOverflowTextColor="@android:color/holo_red_dark"
+        app:counterOverflowTextAppearance="@android:color/holo_red_dark"
+        android:layout_marginTop="25dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:inputType="phone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<com.chaos.view.PinView
+        android:id="@+id/verification_send_by_the_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_gravity="center"
+        app:itemCount="6"
+        app:itemWidth="50dp"
+        app:itemHeight="50dp"
+        app:lineColor="@color/blueDark"
+        android:itemBackground="@color/purple_200"
+        android:textSize="18sp"
+        app:itemRadius="5dp"
+        android:cursorVisible="true"
+        app:cursorColor="@color/blueDark"
+        app:hideLineWhenFilled="true" />-->
+
+    <Button
+        android:id="@+id/updatePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="17sp"
+        android:textColor="@color/purple_700"
+        android:fontFamily="@font/courgette"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+</LinearLayout>

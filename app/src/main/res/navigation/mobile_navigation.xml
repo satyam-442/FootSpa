@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.footspa.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_booking"
+        android:name="com.example.footspa.ui.booking.BookingFragment"
+        android:label="Booking"
+        tools:layout="@layout/fragment_booking" />
+
+    <fragment
+        android:id="@+id/nav_spa_map"
+        android:name="com.example.footspa.ui.spamap.SpaMapFragment"
+        android:label="Spa Map"
+        tools:layout="@layout/spa_map_fragment" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.footspa.ui.profile.FragmentProfile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.footspa.ui.contact_us.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.footspa.ui.about_us.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>
